@@ -1,0 +1,47 @@
+@import "../common/styles/mixins/mixins";
+
+.mainBlock {
+    height: 100vh;
+    background-color: #1f1f20;
+    .container {
+        @include container();
+    }
+    .text{
+        width: 500px;
+        span {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            line-height: 1.8;
+            font-size: 22px;
+            color: white;
+
+        }
+        .name {
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 1.2;
+            letter-spacing: 5px;
+            margin: 0;
+            color: white;
+        }
+        .speciality {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            line-height: 1.8;
+            font-size: 27px;
+            color: white;
+        }
+    }
+    .photo {
+        img{
+            width: 400px;
+        }
+    }
+
+
+}
+
+
+
+

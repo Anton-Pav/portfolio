@@ -1,0 +1,37 @@
+.dataBlock {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 240px;
+  align-items: center;
+  text-align: left;
+  color: #a8a8a8;
+  h4 {
+    margin: 0;
+    text-transform: capitalize;
+  }
+
+  a, span {
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #a8a8a8;
+  }
+
+  .icon {
+    border: 1px solid #a8a8a8;
+    border-radius: 50%;
+    font-size: 24px;
+    height: 47px;
+    line-height: 47px;
+    margin-right: 12px;
+    text-align: center;
+    width: 47px;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+  }
+}
+

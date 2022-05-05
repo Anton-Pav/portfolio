@@ -1,0 +1,23 @@
+@import "../common/styles/mixins/mixins";
+
+
+.skillsBlock {
+    background-color: #252527;
+
+    .skillsContainer {
+        @include container();
+        flex-direction: column;
+        justify-content: flex-start;
+        .skills {
+            width: 100%;
+            margin-top: 70px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            @media (max-width: 628px){
+                justify-content: center;
+            }
+        }
+    }
+}
+
